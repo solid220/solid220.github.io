@@ -6,8 +6,8 @@
         $mail_to = "solid220@gmail.com";
         
         # Sender Data
-        $subject = 'Inquiry from solid220 website';
-        // $subject = trim($_POST["subject"]);
+        // $subject = 'Inquiry from solid220 website';
+        $subject = trim($_POST["subject"]);
         $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
