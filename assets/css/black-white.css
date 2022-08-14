@@ -59,7 +59,7 @@ body {
     line-height: 1.5;
     color: #fff;
     text-align: left;
-    background-color: #000
+    background-color: #262529
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -11590,7 +11590,7 @@ input:-webkit-autofill:hover {
     height: 70px;
     height: 5rem;
     padding: 1rem 0;
-    background-color: #000;
+    background-color: #262529;
     z-index: 1030
 }
 
@@ -12358,7 +12358,7 @@ input:-webkit-autofill:hover {
     transition: -webkit-transform .35s ease;
     transition: transform .35s ease;
     transition: transform .35s ease, -webkit-transform .35s ease;
-    background-color: #000
+    background-color: #262529
 }
 
 @media (min-width:576px) {
